@@ -1,4 +1,4 @@
-// 1. once(fn)
+// once(fn)
 const once = (fn) => {
   let called = false;
   let result;
@@ -14,7 +14,7 @@ const once = (fn) => {
 };
 
 
-// 2. memoize(fn)
+// memoize(fn)
 const memoize = (fn) => {
   const cache = new Map();
 
@@ -30,7 +30,7 @@ const memoize = (fn) => {
 };
 
 
-// 3. debounce(fn, wait)
+// debounce(fn, wait)
 const debounce = (fn, wait) => {
   let timer;
 
@@ -44,7 +44,7 @@ const debounce = (fn, wait) => {
 };
 
 
-// 4. throttle(fn, limit)
+// throttle(fn, limit)
 const throttle = (fn, limit) => {
   let waiting = false;
 
@@ -62,7 +62,7 @@ const throttle = (fn, limit) => {
 };
 
 
-// 5. pipe(...fns)
+// pipe(...fns)
 const pipe = (...fns) => {
   return (value) => {
     return fns.reduce((acc, fn) => fn(acc), value);
@@ -70,7 +70,7 @@ const pipe = (...fns) => {
 };
 
 
-// 6. curry(fn)
+// curry(fn)
 const curry = (fn) => {
   return function curried(...args) {
     if (args.length >= fn.length) {
