@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 30px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input,
+textarea,
+button {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+.note {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.note h3 {
+  margin-top: 0;
+}
+
+.tags {
+  margin-top: 10px;
+}
+
+.tag {
+  display: inline-block;
+  background: #ddd;
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  margin-top: 10px;
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+}
+
+.active-tag {
+  background: #333;
+  color: white;
+}
