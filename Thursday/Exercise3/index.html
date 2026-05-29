@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Team Members</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+
+    <h2>Team Members</h2>
+
+    <!-- Add Member Form -->
+    <form id="add-member">
+
+      <input
+        type="text"
+        name="name"
+        placeholder="Name"
+        required
+        minlength="2"
+      />
+
+      <input
+        type="text"
+        name="role"
+        placeholder="Role"
+        required
+      />
+
+      <button type="submit">
+        Add
+      </button>
+
+    </form>
+
+    <!-- Team List -->
+    <ul id="team"></ul>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
